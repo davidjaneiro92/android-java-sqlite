@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">UNICID</string>
+
+    <string-array name="combo_box">
+        <item>Selecione uma Opção</item>
+        <item>Administração</item>
+        <item>Automação Industrial</item>
+        <item>Analise e Desevolvimeto de Sistema</item>
+        <item>Ciência da Computação</item>
+        <item>Ciências Biológicas</item>
+        <item>Ciências Contábeis</item>
+        <item>Ciências Econômicas</item>
+        <item>Design</item>
+        <item>Direito</item>
+        <item>Educação Física</item>
+        <item>Enfermagem</item>
+        <item>Engenharia Mecânica</item>
+
+    </string-array>
+
+    <string-array name="comboBoxDiciplinas">
+        <item>Selecione uma Opção</item>
+        <item>ID 1</item>
+        <item>ID 2</item>
+        <item>ID 3</item>
+        <item>ID 4</item>
+        <item>ID 5</item>
+        <item>ID 6</item>
+        <item>ID 7</item>
+        <item>ID 8</item>
+        <item>ID 9</item>
+        <item>ID 10</item>
+
+    </string-array>
+
+
+</resources>

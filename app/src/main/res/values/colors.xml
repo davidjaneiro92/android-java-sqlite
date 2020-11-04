@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#54A657</color>
+    <color name="colorPrimaryDark">#678744</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="letras">#000000</color>
+    <color name="Aprovado">#5DFF01</color>
+    <color name="Reprovado">#FF0000</color>
+</resources>

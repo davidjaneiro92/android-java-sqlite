@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AprovadoAF">
+
+    <Button
+        android:id="@+id/caucularNotaAF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="alterar"
+        android:text="Calcular"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/notaAF" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nota A1:"
+        android:textColor="@color/letras"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/notaA1"
+        app:layout_constraintStart_toStartOf="@+id/guideline5"
+        app:layout_constraintTop_toBottomOf="@+id/teViewDiciplina" />
+
+    <EditText
+        android:id="@+id/notaAF"
+        android:layout_width="290dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="70dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="@+id/guideline5"
+        app:layout_constraintTop_toBottomOf="@+id/notaA2" />
+
+    <EditText
+        android:id="@+id/notaA2"
+        android:layout_width="290dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="70dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="@+id/guideline5"
+        app:layout_constraintTop_toBottomOf="@+id/notaA1" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nota AF:"
+        android:textColor="@color/letras"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/notaAF"
+        app:layout_constraintStart_toStartOf="@+id/guideline5"
+        app:layout_constraintTop_toBottomOf="@+id/notaA2" />
+
+    <EditText
+        android:id="@+id/notaA1"
+        android:layout_width="290dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="70dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="@+id/guideline5"
+        app:layout_constraintTop_toBottomOf="@+id/teViewDiciplina" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nota A2:"
+        android:textColor="@color/letras"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/notaA2"
+        app:layout_constraintStart_toStartOf="@+id/guideline5"
+        app:layout_constraintTop_toBottomOf="@+id/notaA1" />
+
+    <Spinner
+        android:id="@+id/diciplina2"
+        android:layout_width="290dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="70dp"
+        app:layout_constraintStart_toStartOf="@+id/guideline5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Disciplina:"
+        android:textColor="@color/letras"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/diciplina2"
+        app:layout_constraintStart_toStartOf="@+id/guideline5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/teViewDiciplina"
+        android:layout_width="290dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/letras"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/guideline5"
+        app:layout_constraintTop_toBottomOf="@+id/diciplina2" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="consultar"
+        android:text="Consultar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/caucularNotaAF"
+        app:layout_constraintTop_toBottomOf="@+id/notaAF" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="30dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
